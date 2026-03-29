@@ -1,0 +1,8 @@
+def tipoNumero (x):
+    if x > 0:
+        return("POSITIVO")
+    elif x == 0:
+        return("ZERO")
+    else:
+        return("NEGATIVO")
+print(tipoNumero(0))
